@@ -1,0 +1,8 @@
+language: node_js
+node_js:
+- '7'
+deploy:
+  provider: heroku
+  api_key:
+    secure: 64268661-c24a-42e9-a0ca-e24b504715ce
+  app: infinite-sands-24986
